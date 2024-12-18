@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/get"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9A4F9"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+    <!-- Login Form Section -->
+
+    <!-- Bottom Navigation Bar -->
+
+
+    <LinearLayout
+        android:id="@+id/verifycode"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+
+
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:clickable="true"
+            android:focusable="true"
+
+            android:text="Verify Email"
+            android:textColor="#5A3798"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+
+
+            android:text="Enter Your Varification Code here"
+            android:textColor="#5A3798"
+            android:textSize="18sp" />
+        <!-- Username Field -->
+
+        <!-- Password Field -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <EditText
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+
+                android:background="@drawable/rounded_input"
+                android:ems="2"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <EditText
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/rounded_input"
+                android:ems="2"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <EditText
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/rounded_input"
+                android:ems="2"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <EditText
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/rounded_input"
+                android:ems="2"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <EditText
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/rounded_input"
+                android:ems="2"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <!-- Forgot Password -->
+
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/VarifyButton"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_margin="44dp"
+
+            android:background="@drawable/rounded_button"
+
+            android:text="Verify"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Backtoforget"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/rounded_button"
+
+            android:text="Back to Forget"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "464928682770",
+    "project_id": "travle-b0c3c",
+    "storage_bucket": "travle-b0c3c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464928682770:android:a2c2e6517650398ff6f9cb",
+        "android_client_info": {
+          "package_name": "com.example.travle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxqnLMFznAZOYnnxKYFJ9EbT2FUbFhkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
