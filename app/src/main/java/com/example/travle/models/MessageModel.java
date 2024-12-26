@@ -4,11 +4,13 @@ public class MessageModel {
     private String name;
     private String status;
     private String time;
+    public int img;
 
-    public MessageModel(String name, String status, String time) {
+    public MessageModel(int img,String name, String status, String time) {
         this.name = name;
         this.status = status;
         this.time = time;
+        this.img=img;
     }
 
     public String getName() {

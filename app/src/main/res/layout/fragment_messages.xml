@@ -3,12 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#BFB9B9"
     android:padding="8dp">
 
     <!-- RecyclerView with the correct id -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:layout_width="matchs_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical" />
 </LinearLayout>

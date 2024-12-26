@@ -33,8 +33,21 @@ public class MessagesFragment extends Fragment {
 
         // Initialize the message list
         messageList = new ArrayList<>();
-        messageList.add(new MessageModel("John Doe", "Online", "12:30 PM"));
-        messageList.add(new MessageModel("Jane Smith", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.b,"ALI Raza", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.a,"Usman Raza", "Online", "12:30 PM"));
+        messageList.add(new MessageModel(R.drawable.c,"Awais", "Online", "12:30 PM"));
+        messageList.add(new MessageModel(R.drawable.d,"Khurram", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.e,"Abubaker", "Online", "12:30 PM"));
+        messageList.add(new MessageModel(R.drawable.f,"Umer", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.g,"Zain", "Online", "12:30 PM"));
+        messageList.add(new MessageModel(R.drawable.h,"Hasnain", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.i,"Usman gym", "Online", "12:30 PM"));
+        messageList.add(new MessageModel(R.drawable.h,"Shahzad", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.c,"Awais", "Online", "12:30 PM"));
+        messageList.add(new MessageModel(R.drawable.d,"Khurram", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.e,"Abubaker", "Online", "12:30 PM"));
+        messageList.add(new MessageModel(R.drawable.f,"Umer", "Typing...", "11:45 AM"));
+        messageList.add(new MessageModel(R.drawable.g,"Zain", "Online", "12:30 PM"));
 
         // Set up the adapter
         messageAdapter = new MessageAdapter(getContext(), messageList);
